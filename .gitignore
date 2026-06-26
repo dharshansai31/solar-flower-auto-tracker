@@ -1,0 +1,27 @@
+# ===== Arduino / PlatformIO build files =====
+.pioenvs/
+.piolibdeps/
+.vscode/
+*.hex
+*.bin
+*.elf
+*.map
+build/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editor / IDE =====
+.idea/
+*.swp
+*~
+
+# ===== Logs =====
+*.log
+
+# ===== Credentials (in case you add Wi-Fi/IoT features later) =====
+secrets.h
+*.env
+.env
