@@ -134,21 +134,6 @@ solar-flower/
 └── README.md
 ```
 
-## Getting Started
-
-### Prerequisites
-- Arduino IDE with ESP32 board support installed
-- `ESP32Servo` library (install via Library Manager)
-
-### Steps
-```bash
-git clone https://github.com/<your-username>/solar-flower.git
-cd solar-flower/firmware/SolarFlower
-```
-Open `SolarFlower.ino` in the Arduino IDE, select **Board: ESP32 Dev Module**, choose the correct COM port, and click **Upload**.
-
-That's it — no accounts, no tokens, no Wi-Fi setup needed. Power it on near a light source and it will begin tracking automatically.
-
 ## Results and Conclusion
 
 Field testing compared the dual-axis tracker against a fixed-panel baseline under real outdoor sunlight across daily and seasonal sun-position changes. Key findings:
@@ -161,21 +146,6 @@ Field testing compared the dual-axis tracker against a fixed-panel baseline unde
 
 **Conclusion:** The project validates that a simple, biomimetic, closed-loop control strategy can meaningfully improve solar energy capture at very low component cost, making it a practical and educational prototype with a clear path toward future IoT-enabled, large-scale tracking systems.
 
-## Advantages and Limitations
-
-**Advantages**
-- Significant efficiency improvement over fixed panels
-- Very low component cost, easy to source and replicate
-- Fully autonomous — no manual repositioning, no internet dependency
-- Modular and scalable (educational kit ↔ larger installation)
-- No accounts, tokens, or cloud services required to operate
-
-**Limitations**
-- Accuracy drops under cloudy / diffuse lighting conditions
-- Servos and joints experience mechanical wear from continuous movement
-- Tracking electronics consume a (small) share of the harvested energy
-- LDRs can misread under uneven lighting or reflections
-- Long-term outdoor exposure requires proper sealing of electronics
 
 ## Future Enhancements
 
@@ -195,14 +165,6 @@ Field testing compared the dual-axis tracker against a fixed-panel baseline unde
 |---|---|---|
 | ![Hardware setup](media/screenshots/hardware-setup.png) | ![Circuit diagram](media/circuit-diagrams/wiring-diagram.png) | ![Tracking demo](media/screenshots/tracking-demo.gif) |
 
-## Team Members
-
-| Name | Department | Email |
-|---|---|---|
-| Rathina Kumar P | ECE, SRM Institute of Science and Technology | rathinap@srmist.edu.in |
-| Janani Priya R | ECE, SRM Institute of Science and Technology | jr6358@srmist.edu.in |
-| Arjun A G | ECE, SRM Institute of Science and Technology | aa9532@srmist.edu.in |
-| Sai Dharshan K | ECE, SRM Institute of Science and Technology | sd9422@srmist.edu.in |
 
 ## References
 
